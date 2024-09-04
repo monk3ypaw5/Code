@@ -1,0 +1,11 @@
+body {
+    background-color: black; /* Makes the background black */
+}
+
+#ball {
+    width: 50px; /* Width and height are 50px */
+    height: 50px;
+    border-radius: 50%; /* Makes the ball round */
+    background-color: white; /* Makes the ball white */
+    position: relative; /* The ball position is relative */
+}
