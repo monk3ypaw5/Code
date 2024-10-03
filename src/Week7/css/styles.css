@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, purple, orange, yellow); /* Gradient background */
+    min-height: 100vh; /* Ensure background covers the full page height */
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#img-routine {
+    width: 100%;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+ol {
+    text-align: left;
+    padding-left: 0;
+    list-style-position: inside; /* Move numbers closer to list items */
+    margin: 0 auto; /* Center the list */
+    display: inline-block; /* Prevent list from stretching across the full width */
+}
+
+ol li {
+    margin-bottom: 10px;
+}
